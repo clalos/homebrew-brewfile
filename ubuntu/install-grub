@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sudo apt -y install grub-efi grub2-common grub-customizer
+sudo grab-install
