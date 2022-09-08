@@ -2,4 +2,5 @@
 
 sudo add-apt-repository ppa:danielrichter2007/grub-customizer
 sudo apt update && sudo apt -y install grub-efi grub2-common grub-customizer
-sudo grab-install
+
+echo 'Grub installed. Open grub-customizer to create and setup the boot page.'
