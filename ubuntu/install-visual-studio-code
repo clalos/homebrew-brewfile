@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Source: https://code.visualstudio.com/docs/setup/linux
+wget --content-disposition https://go.microsoft.com/fwlink/?LinkID=760868
+filename=$(ls | grep *.deb)
+sudo apt install -y ./$filename
+rm -rf ./$filename
