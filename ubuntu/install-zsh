@@ -6,9 +6,8 @@ sudo apt -y install zsh zsh-autosuggestions
 # Install Powerlevel10k extension. Source: https://github.com/romkatv/powerlevel10k#installation
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
-# Change the default shell for the current user and root (reboot required)
+# Change the default shell (reboot required)
 chsh -s $(which zsh)
-sudo chsh -s $(which zsh)
 
 echo 'Remeber to set ZSH_THEME="powerlevel10k/powerlevel10k" in ~/.zshrc.'
 echo 'Zsh shell is installed. Reboot your system.'
