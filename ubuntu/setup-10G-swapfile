@@ -4,6 +4,6 @@ sudo fallocate -l 10G /swapfile
 sudo chmod 600 /swapfile
 sudo mkswap /swapfile
 sudo swapon /swapfile
-echo -e "\n# Swapfile\n/swapfile swap swap defaults 0 0" >> /etc/fstab
+sudo echo -e "\n# Swapfile\n/swapfile swap swap defaults 0 0" >> /etc/fstab
 sudo swapon --show
 echo "Swap file setup completed"
