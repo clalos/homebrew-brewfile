@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Source: https://launchpad.net/~atareao/+archive/ubuntu/telegram
+# Using an unofficial PPA that always supports the latest Telegram version.
+# Use the system's PPA if no longer available.
+
+sudo add-apt-repository -y ppa:atareao/telegram
+sudo apt update && sudo apt install telegram

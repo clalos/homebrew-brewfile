@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # APT
-sudo apt update && sudo apt -y install htop kodi lutris ntfs-3g openssl slack-desktop steam vlc telegram-desktop discord qbittorrent php php-mysql php-pgsql php-xdebug composer pip python3-distutils-extra
+sudo apt update && sudo apt -y install htop kodi lutris ntfs-3g openssl slack-desktop steam vlc discord qbittorrent php php-mysql php-pgsql php-xdebug composer pip python3-distutils-extra
 
 # Flatpak
 flatpak install --noninteractive io.dbeaver.DBeaverCommunity net.davidotek.pupgui2
