@@ -5,4 +5,4 @@
 # Use the system's PPA if no longer available.
 
 sudo add-apt-repository -y ppa:atareao/telegram
-sudo apt update && sudo apt install telegram
+sudo apt update && sudo apt -y install telegram
