@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo dnf -y install telegram-desktop lpf-spotify-client ntfs-3g qbittorrent vlc discord htop kodi python3-pip python3-distutils-extra php

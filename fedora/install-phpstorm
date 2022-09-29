@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Source: https://www.jetbrains.com/phpstorm/download/download-thanks.html?platform=linux
+wget --content-disposition https://download.jetbrains.com/webide/PhpStorm-2022.2.1.tar.gz
+sudo tar xzf PhpStorm-*.tar.gz -C /opt/
+rm -rf PhpStorm-*.tar.gz
+echo '
+You can find the PhpStorm installation under /opt.
+To create a desktop entry, do one of the following:
+ - On the Welcome screen, click Configure | Create Desktop Entry
+ - From the main menu, click Tools | Create Desktop Entry
+'
+

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Source: https://albertlauncher.github.io/installing/
+sudo dnf -y config-manager --add-repo https://download.opensuse.org/repositories/home:manuelschneid3r/Fedora_36/home:manuelschneid3r.repo
+sudo dnf -y install albert

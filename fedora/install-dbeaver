@@ -1,0 +1,6 @@
+#!/bin/bash
+# Source: https://dbeaver.io/download/
+wget --content-disposition https://dbeaver.io/files/dbeaver-ce-latest-stable.x86_64.rpm
+filename=$(ls | grep *.rpm)
+sudo dnf -y install ./$filename
+rm -rf ./$filename
