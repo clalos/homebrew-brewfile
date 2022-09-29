@@ -1,7 +1,5 @@
 #!/bin/bash
 
 # Source: https://dbeaver.io/download/
-wget --content-disposition https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb
-filename=$(ls | grep *.deb)
-sudo apt install -y ./$filename
-rm -rf ./$filename
+sudo add-apt-repository -y ppa:serge-rider/dbeaver-ce
+sudo apt update && sudo apt -y install dbeaver-ce
