@@ -15,6 +15,8 @@ $AppList = @(
     'EpicGames.EpicGamesLauncher'
     'Telegram.TelegramDesktop'
     'MullvadVPN.MullvadVPN'
+    'Adobe.Acrobat.Reader.64-bit'
+    'Microsoft.VisualStudioCode'
 )
 
 foreach ($appId in $AppList) {
